@@ -1,6 +1,6 @@
 {
   "name": "gce-ips",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fetch a list of Google Compute Engine IPs using DNS lookup",
   "main": "index.js",
   "bin": "bin/gce-ips.js",
