@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": "node ./bin/gce-ips.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "version": "standard-version"
   },
   "repository": {
     "type": "git",

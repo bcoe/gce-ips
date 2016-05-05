@@ -1,5 +1,8 @@
 # gce-ips
 
+[![Build Status](https://travis-ci.org/bcoe/gce-ips.svg)](https://travis-ci.org/bcoe/gce-ips)
+[![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version)
+
 fetch a list of Google Compute Engine IPs using DNS lookup
 
 ```sh
