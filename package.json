@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "fetch a list of Google Compute Engine IPs using DNS lookup",
   "main": "index.js",
-  "bin": "node ./bin/gce-ips.js",
+  "bin": "bin/gce-ips.js",
   "scripts": {
     "test": "standard",
     "version": "standard-version"
@@ -30,10 +30,10 @@
     "async": "^1.5.2",
     "ip-range-check": "0.0.1",
     "lodash.assign": "^4.0.8",
-    "standard-version": "^2.2.1",
     "yargs": "^4.7.0"
   },
   "devDependencies": {
-    "standard": "^7.0.1"
+    "standard": "^7.0.1",
+    "standard-version": "^2.2.1"
   }
 }
