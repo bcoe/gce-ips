@@ -1,0 +1,38 @@
+{
+  "name": "gce-ips",
+  "version": "1.0.0",
+  "description": "fetch a list of Google Compute Engine IPs using DNS lookup",
+  "main": "index.js",
+  "bin": "node ./bin/gce-ips.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/gce-ips.git"
+  },
+  "keywords": [
+    "google",
+    "compute",
+    "engine",
+    "ip",
+    "range",
+    "gce"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/gce-ips/issues"
+  },
+  "homepage": "https://github.com/bcoe/gce-ips#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "ip-range-check": "0.0.1",
+    "lodash.assign": "^4.0.8",
+    "standard-version": "^2.2.1",
+    "yargs": "^4.7.0"
+  },
+  "devDependencies": {
+    "standard": "^7.0.1"
+  }
+}
