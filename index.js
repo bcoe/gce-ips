@@ -23,7 +23,9 @@ GCEIP.prototype._lookupNetBlocks = function (cb) {
   var _this = this
   dns.resolveTxt(this.blockUrl, function (err, results) {
     if (err) return cb(err)
-    return cb(null, _this._parseBlocks(results[0][0]))
+    results = results[0]
+    if (Array.isArray(results)) results = results[0]
+    return cb(null, _this._parseBlocks(results))
   })
 }
 
@@ -42,7 +44,9 @@ GCEIP.prototype._lookupIps = function (blocks, cb) {
   eachLimit(blocks, this.concurrency, function (block, done) {
     dns.resolveTxt(block, function (err, results) {
       if (err) return done(err)
-      ips.push.apply(ips, _this._parseIps(results[0][0]))
+      results = results[0]
+      if (Array.isArray(results)) results = results[0]
+      ips.push.apply(ips, _this._parseIps(results))
       return done()
     })
   }, function (err) {
