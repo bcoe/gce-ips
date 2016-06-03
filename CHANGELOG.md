@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/bcoe/gce-ips/compare/v1.0.1...v1.0.2) (2016-06-03)
+
+
+### Bug Fixes
+
+* node 0.10 DNS behavior ([#1](https://github.com/bcoe/gce-ips/issues/1)) ([e5f304a](https://github.com/bcoe/gce-ips/commit/e5f304a))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/bcoe/gce-ips/compare/v1.0.0...v1.0.1) (2016-05-05)
 
