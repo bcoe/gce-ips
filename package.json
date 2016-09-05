@@ -28,7 +28,7 @@
   "homepage": "https://github.com/bcoe/gce-ips#readme",
   "dependencies": {
     "async": "^2.0.0",
-    "ip-range-check": "0.0.1",
+    "ip-range-check": "0.0.2",
     "lodash.assign": "^4.0.8",
     "yargs": "^4.7.0"
   },
