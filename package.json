@@ -33,7 +33,7 @@
     "yargs": "^6.0.0"
   },
   "devDependencies": {
-    "standard": "^8.0.0",
+    "standard": "^9.0.0",
     "standard-version": "^3.0.0"
   }
 }
